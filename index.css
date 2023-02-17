@@ -1,0 +1,39 @@
+.bi-linkedin:hover {
+  color: #0b6188 !important;
+}
+
+#carouselButton .carousel-control-next {
+  color: #000;
+}
+
+#carouselButton .carousel-control-prev {
+color: #000;
+}
+
+#carouselButton .carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+#carouselButton .carousel-control-prev-icon {
+  filter: invert(100%);
+}
+
+#carouselButton .sr-only {
+color: #000;
+}
+
+#project .carousel-caption {
+position: relative;
+right:0;
+bottom: 20px;
+left: 0;
+z-index: 10;
+padding-top: 20px;
+padding-bottom: 20px;
+color: rgb(235, 237, 235);
+text-align: center;
+}
+
+body {
+background: linear-gradient(#80FFDB, #5390D9);
+}

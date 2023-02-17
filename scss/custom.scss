@@ -1,0 +1,14 @@
+// Custom.scss
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$spacers: map-merge(
+    $spacers, (
+        6: $spacer * 6,
+        7: $spacer * 9,
+        8: $spacer *12,
+    )
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";

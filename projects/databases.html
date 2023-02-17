@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../index1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+</head>
+<body>
+    <nav class="navbar sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-house-door" style="font-size: 2rem;"></i>
+            Chase Enzweiler
+            </a>
+            <div>
+                <ul class="navbar-nav d-flex flex-row ms-auto order-5 gap-3">
+                    <li>
+                        <a class="nav-link" href="#"><i id="linkedin" class="bi bi-linkedin" style="font-size: 2rem; color: #0e76a8;"></i></a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#"><i class="bi bi-github" style="font-size: 2rem;"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container mx-auto mt-5 bg-body-tertiary" style="max-width: 75%;">
+        <div class="container-fluid" style="max-width:85%;" >
+            <h1 class="text-center">Database</h1>
+            <p class ="pb-3">
+                &emsp; &emsp; The goal of this project was to design and implement a small version of a relational database management system as well as implement
+                a domain specific language similar to SQL to interact with the database. The user has capabilities to create, load, view, and drop tables as well as insert
+                data into tables. The user can also filter data using select statements similar to SQL as well as perform natural inner and cartesian joins on the tables. This project 
+                was based on UC Berkeley's CS61B Spring 2017 database project. 
+            </p>
+        </div>
+    </section>
+    <div id="project" class="container mx-auto" style="max-width: 75%;">
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="1000000" data-bs-ride="true">
+            <ol class="carousel-indicators my-4">
+                <li data-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="../images/Database1.png" class="d-block w-100"   alt="...">
+                <div class="carousel-caption d-sm-block bg-dark mb-4">
+                    <h5>Create Table</h5>
+                    <p>
+                        Here we can create a new table named football and populate it with the "insert into" command. We can also write the contents
+                        of the table to a tbl file using "store" and "load" other stored tables such as the records table.
+                    </p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="../images/Database2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-sm-block bg-dark mb-4">
+                    <h5>Select Data</h5>
+                    <p>
+                        We can filter for the data we are looking for in the tables using a "select" statement and specifying the columns we would like returned. 
+                        Columns can also be combined to form new columns using column expressions such as "Wins + Losses as Games from records" above. Conditional 
+                        "where" clauses are supported to help the user better filter data. 
+
+                    </p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="../images/Database3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-sm-block bg-dark mb-4">
+                    <h5>joins</h5>
+                    <p>
+                        If two tables are joined and they both have one or more columns matching columns with the other, a natural inner join is performed. 
+                        If the two tables have no columns in common, a cartesian join will be performed. 
+                    </p>
+                </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
