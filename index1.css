@@ -25,6 +25,11 @@ text-align: center;
   text-align: left;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
 
 
 #carouselButton .carousel-control-next-icon {
