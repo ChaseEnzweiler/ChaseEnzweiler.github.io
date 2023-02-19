@@ -21,6 +21,10 @@ color: rgb(235, 237, 235);
 text-align: center;
 }
 
+.cap {
+  text-align: left;
+}
+
 
 
 #carouselButton .carousel-control-next-icon {
